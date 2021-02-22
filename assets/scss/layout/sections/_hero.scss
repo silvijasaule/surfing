@@ -38,5 +38,25 @@
     color: #363535;
     line-height: 2em;
     }
+}
 
+.quotes {
+    text-align: center;
+    max-width: 610px;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    &__text {
+        font-family: 'Playfair Display',sans-serif;
+        font-size: rem(24px);
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5em;
+
+    }
+    &__author {
+
+    }
 }
