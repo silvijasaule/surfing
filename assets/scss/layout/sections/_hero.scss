@@ -1,0 +1,42 @@
+.hero {
+    
+    margin-top: 50px;
+
+
+    img {
+        width: 85%;
+        position: absolute;
+        left: 15%;
+        max-height: 573px;
+    }
+    &__text {
+        width: 25%;
+        position: absolute;
+        top: 250px;
+        z-index: 4;
+        background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff 3%,hsla(0,0%,100%,0));
+    }
+
+    &__text-top {
+        color: #5DA8EF;
+        font-family: 'Lato', sans-serif; 
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: rem(12);
+    }
+    &__text-middle {
+        margin-top: 0;
+        font-family: 'Playfair Display',sans-serif;
+        color: #072933;
+        font-size: 4.5em;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+    p {
+    font-family: 'Lato',sans-serif;
+    color: #363535;
+    line-height: 2em;
+    }
+
+}

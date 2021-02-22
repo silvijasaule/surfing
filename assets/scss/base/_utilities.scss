@@ -1,0 +1,36 @@
+body {
+    .container {
+        width: 90vw;
+        margin: 0 auto;
+        position: relative;
+        height: 100vh;
+
+        .linija1,
+        .linija2,
+        .linija3,
+        .linija4,
+        .linija5 {
+            background-color: #585858;
+            position: absolute;
+            height: 100%;
+            width: 1px;
+            z-index: 0;
+            opacity: 0.06;
+        }
+        .linija1 {
+            left: 0%;
+        }
+        .linija2 {
+            left: 25%;
+        }
+        .linija3 {
+            left: 50%;
+        }
+        .linija4 {
+            left: 75%;
+        }
+        .linija5 {
+            left: 100%;
+        }
+    }
+}

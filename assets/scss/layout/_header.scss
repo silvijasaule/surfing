@@ -1,0 +1,27 @@
+header {
+    #top {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding-top: 35px;
+    }
+    a {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 13px;
+        color: $primary-color;
+        opacity: 0.9;
+        padding: 25px;
+        letter-spacing: 2px;
+        transition: color 250ms ease;
+    }
+    .logo {
+        margin-right: 100px;
+        padding-left: 0;
+        width: 15px;
+    }
+    a:hover {
+        color: $accent-color;
+    }
+}
