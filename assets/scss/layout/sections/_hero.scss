@@ -2,13 +2,15 @@
     
     margin-top: 50px;
     display: flex;
-    position: relative;
+    width: 100%;
+    justify-content: space-between;
 
 
     &__img {
         width: 85%;
-        // position: absolute;
-        // left: 15%;
+        max-width: 1018px;
+        position: relative;
+        left: 150px;
         max-height: 573px;
     }
     &__text {
@@ -16,7 +18,7 @@
         position: absolute;
         top: 250px;
         z-index: 4;
-        background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff 3%,hsla(0,0%,100%,0));
+        background: radial-gradient(90deg, hsla(0,0%,100%,0),#fff 3%,hsla(0,0%,100%,0));
     }
 
     &__text-top {
@@ -42,3 +44,25 @@
     }
 }
 
+.quotes {
+    text-align: center;
+    max-width: 610px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__text {
+        font-family: "Playfair Display", sans-serif;
+        font-size: rem(24px);
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5em;
+    }
+    &__author {
+        font-family: "Lato", sans-serif;
+        color: #696969;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}

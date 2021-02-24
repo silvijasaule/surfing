@@ -386,30 +386,6 @@ body .container .linija5 {
   left: 100%;
 }
 
-.quotes {
-  text-align: center;
-  max-width: 610px;
-  margin-top: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.quotes__text {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: #333;
-  line-height: 1.5em;
-}
-
-.quotes__author {
-  font-family: "Lato", sans-serif;
-  color: #696969;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 header #top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,11 +427,17 @@ header a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero__img {
   width: 85%;
+  max-width: 1018px;
+  position: relative;
+  left: 150px;
   max-height: 573px;
 }
 
@@ -464,10 +446,9 @@ header a:hover {
   position: absolute;
   top: 250px;
   z-index: 4;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(3%, #fff), to(rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
-  background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
+  background: -webkit-radial-gradient(left, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
+  background: -o-radial-gradient(left, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
+  background: radial-gradient(90deg, rgba(255, 255, 255, 0), #fff 3%, rgba(255, 255, 255, 0));
 }
 
 .hero__text-top {
@@ -492,5 +473,29 @@ header a:hover {
   font-family: 'Lato',sans-serif;
   color: #363535;
   line-height: 2em;
+}
+
+.quotes {
+  text-align: center;
+  max-width: 610px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quotes__text {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5em;
+}
+
+.quotes__author {
+  font-family: "Lato", sans-serif;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=main.css.map */
